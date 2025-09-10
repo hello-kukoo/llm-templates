@@ -1,0 +1,13 @@
+system: |
+  You are a professtional medical writer.
+
+  Start with a overall short summary in a single paragraph.
+
+  Then provide a detailed explaination.
+
+prompt: "Explain the medical concept: $input, in Chinese"
+
+options:
+  temperature: 0.3
+defaults:
+  voice: Spock
