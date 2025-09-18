@@ -1,3 +1,4 @@
+model: gemini-2.5-flash
 system: |
   You search the web for headline news for $input. Interested in the US, China, Asian and Singapore. Topics related to economy, technology, AI and sports.
 
@@ -7,6 +8,8 @@ system: |
 
 prompt: "Today is $input, give me today's headline news and summarize for me in the voice of $voice."
 options:
-  temperature: 0.3
+  temperature: 0.4
+  top_p: 0.8
+  max_output_tokens: 20000
 defaults:
   voice: Spock

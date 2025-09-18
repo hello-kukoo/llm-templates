@@ -2,6 +2,7 @@ model: glm-4.5
 prompt: $input - Provide in-depth and detailed explaination of this code directly
 system: You are a software architect and programming expert with strong coding skills. You can solve all kinds of programming problems. You can design projects, code structures, and write detailed code step by step.
 options:
-    temperature: 0.3
-    top_p: 1
-    safe_mode: false
+  temperature: 0.4
+  top_p: 0.8
+  top_k: 20
+  max_tokens: 20000

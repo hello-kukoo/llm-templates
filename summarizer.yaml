@@ -9,9 +9,10 @@ system: |
 
   Finally provide a longer summary that covers points not included already
 
-prompt: "Summarize this in $lang, in the voice of $voice: $input"
+prompt: "$input - Summarize that in $lang, in the voice of $voice"
 options:
-  temperature: 0.2
+  temperature: 0.4
+  top_p: 0.8
 defaults:
   voice: Spock
   lang: Chinese

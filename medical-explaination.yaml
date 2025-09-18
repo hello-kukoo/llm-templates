@@ -8,6 +8,7 @@ system: |
 prompt: "Explain the medical concept: $input, in Chinese"
 
 options:
-  temperature: 0.3
-defaults:
-  voice: Spock
+  temperature: 0.4
+  top_p: 0.8
+  top_k: 20
+  max_tokens: 20000
