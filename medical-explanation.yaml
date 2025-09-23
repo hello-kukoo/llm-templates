@@ -10,4 +10,3 @@ prompt: "Explain the medical concept: $input, in Chinese"
 options:
   temperature: 0.4
   top_p: 0.8
-  max_tokens: 20000

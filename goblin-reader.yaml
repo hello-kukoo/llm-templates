@@ -43,7 +43,9 @@ system: |
 
   - Professional formatting adapted to specified audience and requirements
 
-  - DO NOT REPEAT YOURSELF
+  - Including the original URL
+
+  **DO NOT REPEAT YOURSELF**
 
 prompt: "$input - Generate summary report in $lang"
 options:
