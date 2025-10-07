@@ -7,9 +7,11 @@ system: |
 
   Then a bullet point list of the most unusual ideas
 
-  Finally provide a comprehensive summary with illustrative direct quotes
+  Finally provide a comprehensive and detailed summary.
 
-prompt: "$input - summary with illustrative direct quotes in $lang"
+  Include the URL at the end.
+
+prompt: "$input - summarize in $lang"
 options:
   temperature: 0.4
   top_p: 0.8
