@@ -6,6 +6,7 @@ system: |
   - The readme is the first thing a person will read about the project. Be thorough.
 
 prompt: "generate README with the given repo: $input"
+
 options:
   temperature: 0.4
   top_p: 0.8

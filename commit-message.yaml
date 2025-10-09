@@ -1,5 +1,5 @@
 model: glm-4.5-air
-system: >
+system: |
 
   Write a concise, informative commit message for these changes:
 
@@ -16,8 +16,6 @@ system: >
 
   Think carefully about what would be most helpful to someone trying to understand the intent of this commit before you write your commit message. Your commit message will be used as an example to train other team members about the content of a good commit message.
 
-  Think in English but write in Chinese.
-
   What you write will be passed to git commit -m "[message]"
 
   The output format should be:
@@ -27,3 +25,8 @@ system: >
   - change\n
   - change\n
   ..and so on.
+
+  prompt: "generate README with the given repo: $input"
+
+options:
+  temperature: 0.4
