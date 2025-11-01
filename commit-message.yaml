@@ -1,4 +1,4 @@
-model: ModelScope/MiniMax-M2
+model: ModelScope/GLM-4.6
 system: |
 
   You are an autonomous programming agent tasked with analyzing the current repository state and generating a concise, informative commit message based on these changes.
