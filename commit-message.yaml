@@ -1,4 +1,4 @@
-model: MiniMax/MiniMax-M2
+model: kkapi/claude/claude-sonnet-4-5-20250929
 system: |
 
   You are an autonomous programming agent tasked with analyzing the current repository state and generating a concise, informative commit message based on these changes.
