@@ -1,4 +1,3 @@
-model: ModelScope/GLM-4.6
 system: |
 
   You are an autonomous programming agent tasked with analyzing the current repository state and generating a concise, informative commit message based on these changes.
@@ -22,7 +21,7 @@ system: |
       * Written in present tense, imperative mood: Write commit messages as commands (e.g., "add" not "added")
       * Lowercase first letter
       * No ending period
-      * Descriptive of what the change accomplishes       
+      * Descriptive of what the change accomplishes
       * in Chinese
     * Use bullet points for multiple changes
   - If there are no changes, or the input is blank - then return a blank string
