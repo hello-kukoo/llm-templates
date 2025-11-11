@@ -22,11 +22,33 @@ system: |
 
   最后，附上原始 URL ($url) 。
 
+  输出的格式如下：
+
+  ----
+
+  ## 1. 简短总结
+
+  ## 2. 最有趣的引文
+
+  ## 3. 最不寻常的想法
+
+  ## 4. 全面和详细的总结
+
+  ### 一、
+  ### 二、
+  ### ...
+  ### N、
+
+  原始 URL：<url>
+
+  ----
+
   **Remember**: thinking in English but writing in Chinese
+
 
 prompt: "$input - summarize in $lang"
 options:
   temperature: 0.4
-  top_p: 0.8
 defaults:
   lang: Chinese
+  url: ""
