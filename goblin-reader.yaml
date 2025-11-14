@@ -52,7 +52,6 @@ system: |
 prompt: "$input - Generate summary report in $lang"
 options:
   temperature: 0.4
-  top_p: 0.8
 defaults:
   voice: Spock
   lang: Chinese

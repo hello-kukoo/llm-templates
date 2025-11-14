@@ -75,3 +75,4 @@ options:
   temperature: 0.4
 defaults:
   lang: Chinese
+  url: ""
