@@ -172,7 +172,7 @@ system: |
   - 🔒️ fix: strengthen authentication password requirements
   - ♿️ feat: improve form accessibility for screen readers
 
-prompt: "generate commit message with the given diff from the repo: $input"
+prompt: "generate commit message in Chinese with the given diff from the repo: $input"
 
 options:
   temperature: 0.4
