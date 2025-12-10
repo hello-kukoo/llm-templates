@@ -11,6 +11,5 @@ system: |
 prompt: "$input - In the voice of $voice"
 options:
   temperature: 0.4
-  top_p: 0.8
 defaults:
   voice: Spock
