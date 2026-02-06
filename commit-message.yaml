@@ -1,4 +1,4 @@
-model: Ollamacloud/minimax-m2.1
+model: Nvidia/glm-4.7
 system: |
 
   You are an autonomous programming agent tasked with analyzing the current repository state and generating a concise, informative commit message based on these changes.
