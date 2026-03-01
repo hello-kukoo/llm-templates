@@ -1,4 +1,4 @@
-model: ModelScope/Kimi-K2.5
+model: Ollamacloud/kimi-k2.5
 system: |
 
   You are an autonomous programming agent tasked with analyzing the current repository state and generating a concise, informative commit message based on these changes.
