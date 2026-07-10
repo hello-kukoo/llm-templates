@@ -23,7 +23,7 @@ system: |
       * Lowercase first letter
       * No ending period
       * Descriptive of what the change accomplishes
-      * in Chinese
+      * in English
     * Use bullet points for multiple changes
   - If there are no changes, or the input is blank - then return a blank string
 
